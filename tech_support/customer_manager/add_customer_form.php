@@ -46,20 +46,20 @@ $statement->closeCursor();
                     <label>Postal Code:</label>
                     <input type="text" name="postal_code" value="<?php echo htmlspecialchars($customer['postalCode']); ?>"><br>
                     <label>Country:</label>
-<select name="country_code">
-    <?php foreach ($countries as $country) : ?>
-        <option value="<?php echo htmlspecialchars($country['countryCode']); ?>"
-            <?php 
-            if (empty($customer['countryCode']) && $country['countryCode'] == 'US') {
-                echo 'selected'; 
-            } elseif ($customer['countryCode'] == $country['countryCode']) {
-                echo 'selected'; 
-            }
-            ?>>
-            <?php echo htmlspecialchars($country['countryName']); ?>
-        </option>
-    <?php endforeach; ?>
-</select><br>
+                        <select name="country_code">
+                            <?php foreach ($countries as $country) : ?>
+                                <option value="<?php echo htmlspecialchars($country['countryCode']); ?>"
+                                    <?php 
+                                    if (empty($customer['countryCode']) && $country['countryCode'] == 'US') {
+                                        echo 'selected'; 
+                                    } elseif ($customer['countryCode'] == $country['countryCode']) {
+                                        echo 'selected'; 
+                                    }
+                                    ?>>
+                                    <?php echo htmlspecialchars($country['countryName']); ?>
+                                </option>
+                            <?php endforeach; ?>
+                        </select><br>
 
                     <label>Phone:</label>
                     <input type="text" name="phone" value="<?php echo htmlspecialchars($customer['phone']); ?>"><br>
