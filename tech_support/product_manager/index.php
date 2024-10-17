@@ -20,7 +20,7 @@ try {
     <head>
         <meta charset="UTF-8">
         <title>Product Manager</title>
-        <link rel="stylesheet" type="text/css" href="/phpassignment4/tech_support/main.css">
+        <link rel="stylesheet" type="text/css" href="/phpassignment5/tech_support/main.css">
     </head>
 <body>
     <?php
@@ -61,7 +61,7 @@ try {
             <?php endforeach; ?>
         </tbody>
     </table>
-    <a href="/phpassignment4/tech_support/product_manager/add_product_form.php">Add product</a>
+    <a href="/phpassignment5/tech_support/product_manager/add_product_form.php">Add product</a>
     <?php
     include('../view/footer.php');
     ?>

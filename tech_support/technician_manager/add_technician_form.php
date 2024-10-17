@@ -8,7 +8,7 @@ session_start();
     <head>
         <meta charset="UTF-8">
         <title>Add Technician </title>
-        <link rel="stylesheet" type="text/css" href="/phpassignment4/tech_support/main.css">
+        <link rel="stylesheet" type="text/css" href="/phpassignment5/tech_support/main.css">
     </head>
 <body>
     <?php
@@ -35,7 +35,7 @@ session_start();
         <label>&nbsp;</label>
         <input type="submit" value="Add Technician"><br>
     </form>
-    <p><a href="/phpassignment4/tech_support/technician_manager">View Technicians List</a></p>
+    <p><a href="/phpassignment5/tech_support/technician_manager">View Technicians List</a></p>
     <?php
     include('../view/footer.php'); 
     ?>   

@@ -29,7 +29,7 @@ try {
     <head>
         <meta charset="UTF-8">
         <title>Customer Manager</title>
-        <link rel="stylesheet" type="text/css" href="/phpassignment4/tech_support/main.css">
+        <link rel="stylesheet" type="text/css" href="/phpassignment5/tech_support/main.css">
     </head>
 <body>
     <?php include('../view/header.php'); ?>

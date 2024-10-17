@@ -5,7 +5,7 @@
 <head>
     <title>SportsPro Technical Support</title>
     <link rel="stylesheet" type="text/css"
-          href="/phpassignment4/tech_support/main.css">
+          href="/phpassignment5/tech_support/main.css">
 </head>
 
 <!-- the body section -->
@@ -15,7 +15,7 @@
     <p>Sports management software for the sports enthusiast</p>
     <nav>
         <ul>
-            <li><a href="/phpassignment4/tech_support/">Home</a></li>
+            <li><a href="/phpassignment5/tech_support/">Home</a></li>
         </ul>
     </nav>
 </header>

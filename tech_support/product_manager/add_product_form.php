@@ -7,7 +7,7 @@ session_start();
 <head>
     <meta charset="UTF-8">
     <title>Add Product</title>
-    <link rel="stylesheet" type="text/css" href="/phpassignment4/tech_support/main.css">
+    <link rel="stylesheet" type="text/css" href="/phpassignment5/tech_support/main.css">
 </head>
 <body>
     <?php include('../view/header.php'); ?>
@@ -35,7 +35,7 @@ session_start();
             <input type="submit" value="Add Product"><br>
         </form>
 
-        <p><a href="/phpassignment4/tech_support/product_manager">View Product List</a></p>
+        <p><a href="/phpassignment5/tech_support/product_manager">View Product List</a></p>
     </main>
     <?php include('../view/footer.php'); ?>
 </body>
